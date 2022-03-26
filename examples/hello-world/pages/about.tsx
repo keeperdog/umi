@@ -1,6 +1,6 @@
+import { Link } from 'patx';
 import type { FC } from 'react';
 import React from 'react';
-import { Link } from 'umi';
 
 const IndexPage: FC = () => {
   return (
