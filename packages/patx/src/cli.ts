@@ -32,7 +32,7 @@ if (args.version && !args._[0]) {
   const local = existsSync(join(__dirname, '../.local'))
     ? chalk.cyan('@local')
     : '';
-  console.log(`umi@${require('../package.json').version}${local}`);
+  console.log(`patx@${require('../package.json').version}${local}`);
 } else if (!args._[0]) {
   args._[0] = 'help';
 }
