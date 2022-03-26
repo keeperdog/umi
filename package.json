@@ -16,6 +16,7 @@
     "example": "node ./scripts/example",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "link:umi": "cd packages/umi && yarn link && cd -",
+    "link:patx": "cd packages/patx && yarn link && cd -",
     "release": "node ./scripts/release.js",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
